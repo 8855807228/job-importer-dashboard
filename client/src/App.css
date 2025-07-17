@@ -40,3 +40,60 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Central CSS for the React app */
+.dashboard-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #333;
+}
+.import-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: background 0.2s;
+}
+.import-btn:disabled {
+  background: #90caf9;
+  cursor: not-allowed;
+}
+.error-msg {
+  color: #d32f2f;
+  margin-bottom: 16px;
+}
+.loading-msg {
+  color: #1976d2;
+  margin-bottom: 16px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+th {
+  background: #f1f1f1;
+  font-weight: 500;
+}
+tr:hover {
+  background: #f5f5f5;
+}
